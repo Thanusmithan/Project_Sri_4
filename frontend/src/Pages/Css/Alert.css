@@ -1,0 +1,31 @@
+/* src/Css/Alert.css */
+.alert {
+    position: fixed;
+    top: 120px;
+    right: 140px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    width: 500px;
+    z-index: 1000;
+    cursor: pointer;
+    transition: opacity 0.5s, transform 0.3s;
+}
+
+.alert.success {
+    background-color: #28a745; /* Green */
+}
+
+.alert.error {
+    background-color: #dc3545; /* Red */
+}
+
+.alert.warning {
+    background-color: #ffc107; /* Yellow */
+}
+
+.close-btn {
+    margin-left: 260px;
+    font-weight: bold;
+    cursor: pointer;
+}

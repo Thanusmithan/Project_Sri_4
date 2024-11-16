@@ -1,0 +1,399 @@
+/* .page-wrapper {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 65px;
+}
+
+.profile-wrapper {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 60%;
+    max-width: 700px;
+    margin: 2em auto;
+    padding: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-content h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 1.5em;
+}
+
+.profile-details {
+    margin-top: 1em;
+}
+
+.profile-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 0;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+
+.profile-item label {
+    font-weight: bold;
+    color: #555;
+}
+
+.profile-item span {
+    color: #555;
+}
+
+.input-field {
+    width: 60%;
+    padding: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.profile-actions {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.btn-edit, .btn-save, .btn-cancel {
+    padding: 0.7em 1.5em;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 0.5em;
+}
+
+.btn-edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #45a049;
+}
+
+.btn-save {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-save:hover {
+    background-color: #0069d9;
+}
+
+.btn-cancel {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-cancel:hover {
+    background-color: #c82333;
+} */
+
+/* 14.11.2024 -------------------------------*/
+/* General page wrapper */
+/* .page-wrapper {
+   
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;  
+}
+
+
+.profile-wrapper {
+    background-color: #fff;
+    border-radius: 12px; 
+    width: 70%;
+    max-width: 750px; 
+    margin: 2em auto;
+    padding: 2em 3em; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+}
+
+
+.profile-content h1 {
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 0.8em;
+    color: #333;
+    font-weight: 600;
+}
+
+
+.subtitle {
+    text-align: center;
+    color: #888; 
+    margin-bottom: 1.5em;
+}
+
+
+.profile-details {
+    margin-top: 1.5em;
+}
+
+
+.profile-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+    border-bottom: 1px solid #eee; 
+    color: #444;
+    font-size: 1.1em;
+}
+
+
+.profile-item label {
+    font-weight: 600; 
+    color: #555;
+}
+
+
+.profile-item span {
+    color: #555;
+}
+
+
+.input-field {
+    width: 65%;
+    padding: 0.8em;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.input-field:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+    outline: none;
+}
+
+
+.profile-actions {
+    text-align: center;
+    margin-top: 2.5em;
+}
+
+.btn-edit, .btn-save, .btn-cancel {
+    padding: 0.8em 1.6em;
+    border: none;
+    border-radius: 30px; 
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 0 0.5em;
+    font-weight: 600;
+}
+
+.btn-edit {
+    background-color: #28a745; 
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #218838; 
+    transform: scale(1.05); 
+}
+
+.btn-save {
+    background-color: #007bff; 
+    color: white;
+}
+
+.btn-save:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); 
+}
+
+.btn-cancel {
+    background-color: #dc3545; 
+    color: white;
+}
+
+.btn-cancel:hover {
+    background-color: #c82333; 
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+    .profile-wrapper {
+        width: 90%; 
+        padding: 2em;
+    }
+
+    .profile-content h1 {
+        font-size: 1.8em; 
+    }
+
+    .subtitle {
+        font-size: 1.1em; 
+    }
+
+    .input-field {
+        width: 70%; 
+    }
+
+    .btn-edit, .btn-save, .btn-cancel {
+        font-size: 1em; 
+        padding: 0.7em 1.3em; 
+    }
+} */
+
+
+/* General styling */
+.page-wrapper {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+}
+
+.profile-wrapper {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2.5em;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading and Subtitle */
+.profile-content h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 1.5em;
+    font-size: 1.1em;
+}
+
+/* Profile details section */
+.profile-details {
+    margin-top: 1em;
+}
+
+.profile-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    align-items: center;
+}
+
+.profile-item label {
+    font-weight: 600;
+    color: #555;
+    width: 30%;
+}
+
+.profile-item span {
+    color: #555;
+    font-size: 1.1em;
+    width: 60%;
+}
+
+/* Input field styling */
+.input-field {
+    width: 70%;
+    padding: 0.8em;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+
+/* Button Styling */
+.profile-actions {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.btn-edit, .btn-save, .btn-cancel {
+    padding: 0.8em 1.8em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 1em;
+}
+
+.btn-edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #45a049;
+}
+
+.btn-save {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-save:hover {
+    background-color: #0069d9;
+}
+
+.btn-cancel {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-cancel:hover {
+    background-color: #c82333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .profile-wrapper {
+        width: 90%;
+        padding: 1.5em;
+    }
+
+    .input-field {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .profile-item {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .profile-item label {
+        width: 100%;
+        margin-bottom: 0.5em;
+    }
+
+    .btn-save, .btn-cancel, .btn-edit {
+        width: 100%;
+        padding: 1em;
+    }
+}

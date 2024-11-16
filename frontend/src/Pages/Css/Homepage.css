@@ -1,0 +1,258 @@
+/* General Styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(
+      to right,
+      rgba(81, 107, 139, 0.8),
+      rgba(5, 107, 59, 0.8)
+    ),
+    url("../Images/Hero-bg-img.jpg") no-repeat center center/cover;
+  color: white;
+  padding: 110px 0;
+  text-align: left;
+  overflow: hidden; /* To hide overflowing animated elements */
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: black;
+  opacity: 0; /* Start hidden */
+  transform: translateY(-20px); /* Start slightly above */
+  animation: fadeInUp 1s forwards; /* Add animation */
+  animation-delay: 0.3s; /* Delay the animation */
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  opacity: 0; /* Start hidden */
+  transform: translateY(-20px); /* Start slightly above */
+  animation: fadeInUp 1s forwards; /* Add animation */
+  animation-delay: 0.5s; /* Delay the animation */
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 10px;
+  opacity: 0; /* Start hidden */
+  transform: scale(0.8); /* Start scaled down */
+  animation: fadeInScale 1s forwards; /* Add animation */
+  animation-delay: 0.7s; /* Delay the animation */
+}
+
+/* Hero Button (Book Appointment) */
+.hero-btn {
+  background-color: #28a745; /* A vibrant green for the appointment button */
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  width: 230px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  opacity: 0; /* Start hidden */
+  transform: translateY(20px); /* Start slightly below */
+  animation: fadeInUp 1s forwards; /* Add animation */
+  animation-delay: 1s; /* Delay the animation */
+}
+
+.hero-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: scale(1.05); /* Slight scale up on hover */
+}
+
+/* Login Button */
+
+.login-homepage-btn {
+  background-color: #007bff; /* Blue for the login button */
+  width: 230px !important;
+  font-size: 1.1rem !important;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px !important; /*NEW CHANGE*/
+  opacity: 0; /* Start hidden */
+  transform: translateY(20px); /* Start slightly below */
+  animation: fadeInUp 1s forwards; /* Add animation */
+  animation-delay: 1s; /* Delay the animation */
+}
+
+.login-homepage-btn:hover {
+  background-color: #0056b3 !important; /* Darker blue on hover */
+}
+
+/* Keyframe Animations */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Move to original position */
+  }
+}
+
+@keyframes fadeInScale {
+  to {
+    opacity: 1;
+    transform: scale(1); /* Scale to original size */
+  }
+}
+
+/* Services Section */
+.services-section {
+  padding: 60px 0 100px 0;/*Adjusted*/
+  background-color: #F1F1F1;
+
+}
+
+.home-section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2px;
+}
+
+.service-card {
+  background-color: white;
+  padding: 20px;
+  border-left: 5px solid #2ecc71;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+/* About Us Section */
+.about-us-section {
+  padding: 60px 0;
+}
+
+.about-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 60px 0 90px 0; /*Adjusted*/
+  background-color: #f1f1f1; /* Light gray background for contrast */
+}
+
+.testimonial {
+  background-color: white;
+  border-left: 5px solid #2ecc71; /* Accent color for testimonials */
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.testimonial footer {
+  text-align: right;
+  font-style: italic;
+}
+
+
+.home-heading-underline {
+  width: 60px; /* Adjust width as necessary */
+  height: 4px; /* Thickness of the underline */
+  background-color: #28a745; /* Color of the underline */
+  border-radius: 5px; /* Rounded edges for the underline */
+  margin: auto; /* Center the underline */
+  margin-bottom: 15px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.home-section-title:hover + .home-heading-underline {
+  transform: scale(1.1); /* Slightly enlarge the underline on hover */
+}
+
+
+  /* Primary button for Sign Up button in the menu bar */
+.btn-signup-btn {
+  width: auto;
+  height: 40px;
+  padding: 0 40px 0 20px;
+  border-radius: 20px;
+  background-color: #007bff; /* Primary blue color */
+  color: white;
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+/* Hover and active state for the primary button */
+.btn-signup-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-signup-btn:active {
+  transform: translateY(1px);
+}
+
+/* Link inside the button */
+.btn-signup-link {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* Secondary button style */
+.btn-signup-secondary {
+  width: auto;
+  height: 40px;
+  padding: 0 40px 0 20px;
+  border-radius: 20px;
+  background-color: #6c757d; /* Secondary color (grayish tone) */
+  color: white;
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+/* Hover and active state for the secondary button */
+.btn-signup-secondary:hover {
+  background-color: #5a6268; /* Darker gray on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-signup-secondary:active {
+  transform: translateY(1px);
+}
+
+/* Link inside the secondary button */
+.btn-signup-secondary-link {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+}

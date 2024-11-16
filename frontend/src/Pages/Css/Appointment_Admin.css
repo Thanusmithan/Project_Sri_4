@@ -1,0 +1,55 @@
+.admin-appointment-wrapper {
+  background-color: #f8f9fa; /* Light background */
+  max-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+
+.space_bottom{
+  margin-bottom: 2px !important;
+}
+.page-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #343a40;
+}
+
+.table-responsive {
+  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.dropdown-toggle {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.dropdown-menu {
+  background-color: #5A6268;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+.table-dark {
+  background-color: green;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}

@@ -1,0 +1,385 @@
+/* .homepage-header {
+    background-color: #2ecc71;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+  }
+  
+  .logo img {
+    width: 120px;
+    height: auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .login-link {
+    margin-right: 20px;
+  }
+  
+  .ms-l-20 {
+    margin-left: 20px;
+  }
+  
+  .me-r-20 {
+    margin-right: 20px;
+  }
+  
+
+  .patient-logout-btn {
+    padding: 8px 30px !important;
+    border-radius: 50px !important;
+    font-weight: bold !important;
+  }
+  
+  09.11.2024 added
+
+
+  .patient-profile-dropdown {
+    padding: 8px 20px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.patient-profile-dropdown .dropdown-toggle::after {
+    display: none; /* Hide default caret if desired 
+}
+
+.dropdown-menu {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #27ae60;
+    color: white;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-greeting {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 5px;
+} */
+
+
+/* changed on 10.11.2024*/
+
+/* .homepage-header {
+  background-color: #2ecc71;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+ margin-left: 20px;
+}
+ */
+/* .ms-l-20 {
+  margin-left: 20px;
+}
+
+.me-r-20 {
+  margin-right: 20px;
+} */
+
+/* .patient-logout-btn {
+  padding: 8px 30px;
+  border-radius: 50px;
+  font-weight: bold;
+} 
+
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  /* border-left: 1px solid black;
+  padding-left: 15px;
+} */
+/*
+.user-icon {
+  font-size: 28px;
+  color: #fff;
+}
+
+.user-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.patient-profile-dropdown-toggle{
+  padding: 8px 20px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.patient-profile-dropdown-toggle .dropdown-toggle::after {
+  display: none; /* Hides default caret 
+}*/
+/*
+.dropdown-menu {
+  background-color: #636363 !important;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.dropdown-item {
+  color: white !important;;
+  font-weight: bold;
+  text-align: left;
+}
+
+.dropdown-item:hover {
+  background-color: #fff;
+  color: black !important;
+} */
+
+/* 14.11.2024 */
+/* .homepage-header {
+  background-color: #2ecc71;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  padding-left: 15px;
+}
+
+.user-icon {
+  font-size: 28px;
+  color: #fff;
+}
+
+.user-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.patient-profile-dropdown-toggle {
+  padding: 8px 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+}
+
+.patient-profile-dropdown-toggle .dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu {
+  background-color: #636363 !important;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.dropdown-item {
+  color: white !important;
+  font-weight: bold;
+  text-align: left;
+}
+
+.dropdown-item:hover {
+  background-color: #fff;
+  color: black !important;
+}
+
+
+@media (max-width: 768px) {
+  .user-info {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+} */
+
+
+/* Header Styling */
+/* General header styling */
+.homepage-header {
+  background-color: #2ecc71;
+  padding: 20px 0;  /* Increased padding for better spacing */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow for depth */
+}
+
+/* Logo Styling */
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+/* User info container */
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: white;
+  padding-left: 15px;
+}
+
+/* User Icon */
+.user-icon {
+  font-size: 30px;
+  color: #fff;
+  transition: transform 0.3s ease;  /* Animation for hover effect */
+}
+
+.user-icon:hover {
+  transform: scale(1.1);  /* Slight zoom on hover */
+}
+
+/* Styling for user-name class */
+.user-name {
+  font-size: 16px;  /* Slightly larger font for visibility */
+  font-weight: 600; /* Bold weight for prominence */
+  color: #fff;
+  margin-left: 10px;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.user-name:hover {
+  color: #ffdd57; /* Golden yellow on hover */
+  cursor: pointer;
+}
+
+.user-name:focus {
+  outline: 2px solid #ffdd57;
+  outline-offset: 4px;
+}
+
+/* Dropdown toggle button */
+.patient-profile-dropdown-toggle {
+  /* padding: 8px 6px; */
+  font-weight: bold;
+  border-radius: 40% !important; /* Rounder shape for the button */
+  background-color: #2ECC71 !important; 
+  color: white;
+  border: none;
+  position: relative;
+  z-index: 1;
+  transition: background-color 0.3s ease;
+}
+
+/* .patient-profile-dropdown-toggle:hover {
+  background-color: #27ae60;
+} */
+
+/* Dropdown Menu */
+.dropdown-menu-custom {
+  background-color: #636363 !important;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Dropdown Items */
+.dropdown-item {
+  color: white !important;
+  font-weight: 600;
+  text-align: left;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #ffdd57;
+  color: black !important;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .user-info {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .user-name {
+    font-size: 18px;  /* Slightly smaller on mobile */
+    text-align: center;
+  }
+
+  .patient-profile-dropdown-toggle {
+    width: 100%;
+    text-align: center;  /* Center button on mobile */
+  }
+
+  .dropdown-menu-custom {
+    width: 100%;
+  }
+}

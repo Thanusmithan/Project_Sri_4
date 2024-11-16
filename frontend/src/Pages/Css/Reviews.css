@@ -1,0 +1,30 @@
+/* .review-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .reviews-list {
+    margin-top: 20px;
+  }
+  
+  .reviews-list .list-group-item {
+    border: 1px solid #ccc;
+  }
+   */
+
+
+   /* Admin_Reviews.css */
+.list-group-item {
+  border: 1px solid #dee2e6; /* Adding border for better separation */
+  border-radius: 0.25rem; /* Slightly rounded corners */
+}
+
+textarea {
+  resize: none; /* Prevent resizing */
+}
+
+.btn {
+  min-width: 120px; /* Ensures buttons are of similar size */
+}

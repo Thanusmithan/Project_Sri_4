@@ -1,0 +1,76 @@
+/* Admin_Service.css */
+
+/* Page styling */
+.page-wrapper {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.page-title {
+  color: #333;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.service-exist{
+
+  font-weight: bold;
+}
+/* Service form container styling */
+.service-form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-service-primary {
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+  padding: 10px 30px; /* Adjusted padding for larger button size */
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+  display: block; /* Center the button */
+  width: 100%; /* Make the button full width */
+}
+
+.btn-service-primary:hover {
+  background-color: #218838;
+}
+
+/* Service card styling */
+.service-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-card .blockquote {
+  color: #666;
+}
+
+/* Dropdown button styling */
+.dropdown-toggle {
+  width: 100%; /* Ensure the dropdown button takes full width */
+  padding: 10px 0; /* Adjust button size */
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  width: 100%; /* Ensure the dropdown menu takes full width */
+}
+
+.admin-service-alert{
+  position: fixed;
+  top: 66px;
+  right: 118px;
+  margin-bottom: 2px;
+}

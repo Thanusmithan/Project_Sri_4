@@ -1,0 +1,46 @@
+.announcement-section,
+.messaging-section {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+.admin-message-container {
+  background-color: #ffffff;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+.announcement-section h4,
+.messaging-section h4 {
+  color: #343a40;
+}
+
+.btn-primary,
+.btn-success {
+  font-weight: bold;
+}
+
+.messages-display h5 {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #495057;
+}
+
+.message-list-group-item {
+  background-color: #f8f9fa;
+  color: #495057;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.message-list-group-item:hover {
+  background-color: #f8f9fa;
+  padding: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.admin-message-alert {
+  position: fixed;
+  top: 60px;
+  right: 104px;
+  margin-bottom: 2px;
+}

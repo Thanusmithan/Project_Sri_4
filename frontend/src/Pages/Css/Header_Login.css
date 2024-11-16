@@ -1,0 +1,43 @@
+.homepage-header {
+  background-color: #2ecc71;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.login-logo img {
+  width: 120px;
+  height: auto;
+}
+
+.login-nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.login-nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.ms-l-20 {
+  margin-left: 20px;
+}
+
+.me-r-20 {
+  margin-right: 20px;
+}
+
+.btn-login-btn {
+  padding: 0 30px !important;
+  border-radius: 50px !important;
+}
+.login-nav-btn {
+  font-weight: bold;
+}

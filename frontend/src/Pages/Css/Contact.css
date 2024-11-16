@@ -1,0 +1,130 @@
+/* General Styles */
+.contact-page {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: linear-gradient(
+        to right,
+        rgba(81, 107, 139, 0.8),
+        rgba(5, 107, 59, 0.8)
+      ),
+      url("../Images/Hero-bg-img.jpg") no-repeat center center/cover;
+    color: white;
+    padding: 110px 0;
+    text-align: left;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .contact-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Contact Form Section */
+  .contact-form-section {
+    padding: 60px 0;
+  }
+  
+  .form-title {
+    margin-bottom: 30px;
+    color: black;
+  }
+
+  .inputs {
+    padding: 10px;
+    width: 700px; /*Addjust the Width*/
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+  }
+  
+  /* Footer */
+  .homepage-footer {
+    background-color: #2ecc71;
+    color: white;
+    padding: 20px 0 20px 0;
+    text-align: center; /* Center the text by default */
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center; /* Center social icons */
+    font-size: 16px;
+  
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: white; /* Ensure link color is visible */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center; /* Center social icons */
+    font-size: 1.5rem;
+  }
+
+
+  /*menu login btn*/
+.btn-login-btn {
+  width: auto; /* Let the width adjust to the text content */
+  height: 40px; /* Slightly shorter to fit with the navbar */
+  padding: 0 40px 0 20px; /* Horizontal padding for better spacing */
+  border-radius: 20px; /* Rounded corners for a modern look */
+  background-color: #007bff; /* Primary blue color */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  display: inline-flex; /* Inline with other nav items */
+  justify-content: center; /* Center the content */
+  align-items: center; /* Vertically center the text */
+  font-weight: bold; /* Make the text bold for visibility */
+  font-size: 16px; /* Adjust font size for better readability */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  cursor: pointer; /* Pointer on hover */
+  margin-left: 16px; /* Add some spacing between the button and other nav items */
+}
+
+/* Hover and active state for better interactivity */
+.btn-login-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.btn-login-btn:active {
+  transform: translateY(1px); /* Pressed-down effect */
+}
+
+/* Styling for the link inside the button */
+.btn-login-link {
+  text-decoration: none;
+  color: white; /* Ensure the text stays white */
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 40px; /* Match the height of the button */
+}
